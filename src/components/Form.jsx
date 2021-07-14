@@ -3,15 +3,15 @@
 const ConnectedForm = () => {
 
   return (
-    <form onSubmit={}>
+    <form onSubmit={null}>
       <div className="form-group">
         <label htmlFor="title">Title</label>
         <input
           type="text"
           className="form-control"
           id="title"
-          value={}
-          onChange={}
+          value={null}
+          onChange={null}
         />
       </div>
       <button type="submit" className="btn btn-success btn-lg">
